@@ -46,3 +46,54 @@ Our backend serves as the backbone of our web application, handling data storage
    ```bash
    git clone <repository-url>
    ```
+   2. Install dependencies:
+   ```bash
+   npm install
+   ```
+   3. Start the server::
+   ```bash
+   npm run dev
+   ```
+   4. Start the server::
+   ```bash
+   npm run dev
+   ```
+## Usage
+
+Once the server is running, the backend will be accessible at the specified port (default is 3000). Frontend applications can make HTTP requests to the defined API endpoints to interact with the backend.
+
+
+## API Endpoints
+
+Detailed documentation of API endpoints can be found here (link to API documentation).
+
+## Authentication
+
+Our backend uses JSON Web Tokens (JWT) for authentication. When users register or log in, they receive a token which they can include in subsequent requests to access protected routes.
+
+## Dependencies
+
+Here are the versions of the packages used in this project:
+
+- **axios**: ^1.6.8
+- **bcrypt**: ^5.1.1
+- **cheerio**: ^1.0.0-rc.12
+- **cors**: ^2.8.5
+- **csv-writer**: ^1.6.0
+- **dotenv**: ^16.4.5
+- **express**: ^4.19.2
+- **express-async-handler**: ^1.2.0
+- **helmet**: ^7.1.0
+- **joi**: ^17.13.1
+- **jsonwebtoken**: ^9.0.2
+- **mongoose**: ^8.3.4
+- **nodemon**: ^3.1.0
+- **puppeteer**: ^22.8.1
+- **selenium-webdriver**: ^4.20.0
+
+## License
+This project is licensed under the MIT License.
+
+   ```vbnet
+Feel free to modify it according to your needs, and let me know if you need any further assistance!
+   ```
